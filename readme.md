@@ -1,16 +1,14 @@
 ## Usage
 
-This Laravel Elixir extension allows you to compile Stylus.
+This WpDevOps Elixir extension allows you to compile Stylus.
 
 ## Installation
 
 First, pull in the extension through NPM.
 
 ```
-npm install --save-dev laravel-elixir-stylus
+npm install --save-dev @wpdevops/elixir-stylus
 ```
-
-> Note: if using Laravel Elixir 6 or higher, pull in `laravel-elixir-stylus@2.x`. Otherwise, stick with `laravel-elixir-stylus@1.x`.
 
 That's it! You're all set to go!
 
@@ -24,12 +22,12 @@ elixir(function(mix) {
 });
 ```
 
-...this will compile your `resources/assets/stylus/app.styl` file to `./public/css/app.css`.
+...this will compile your `assets/stylus/app.styl` file to `./dist/css/app.css`.
 
 If you'd like to set a different output directory, you may pass a second argument to the `stylus()` method, like so:
 
 ```js
-mix.stylus('app.styl', './public/scripts/styles.css')
+mix.stylus('app.styl', './dist/scripts/styles.css')
 ```
 
 Finally, if you want to override the Stylus plugin options, you may pass an object as the third argument.
@@ -53,3 +51,8 @@ mix.stylus('app.styl', null, {
    use: [postStylus(['lost', 'postcss-position'])] // npm install --save-dev postcss-position
 });
 ```
+
+---
+
+This package was originally ([laravel-elixir-stylus](https://github.com/JeffreyWay/laravel-elixir-stylus)) 
+written by [Jeffrey Way](https://github.com/JeffreyWay)

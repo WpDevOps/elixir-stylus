@@ -1,26 +1,27 @@
 {
-  "name": "laravel-elixir-stylus",
-  "version": "2.0.3",
-  "description": "Laravel Elixir Stylus Extension",
+  "name": "@wpdevops/elixir-stylus",
+  "version": "1.0.0",
+  "description": "WpDevOps Elixir Stylus Extension",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "laravel",
+    "wpdevops",
     "elixir",
     "stylus",
-    "gulp"
+    "gulp",
+    "wordpress"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JeffreyWay/laravel-elixir-stylus"
+    "url": "https://github.com/WpDevOps/elixir-stylus"
   },
-  "author": "Jeffrey Way",
+  "author": "Shemi Perez",
   "license": "MIT",
-  "homepage": "https://github.com/JeffreyWay/laravel-elixir-stylus",
+  "homepage": "https://github.com/WpDevOps/elixir-stylus",
   "bugs": {
-    "url": "https://github.com/JeffreyWay/laravel-elixir-stylus/issues"
+    "url": "https://github.com/WpDevOps/elixir-stylus/issues"
   },
   "dependencies": {
     "gulp-stylus": "^2.5.0",

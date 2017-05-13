@@ -1,4 +1,4 @@
-var CssTask = require('laravel-elixir/dist/tasks/CssTask').default;
+var CssTask = require('@wpdevops/elixir/dist/tasks/CssTask').default;
 
 /*
  |----------------------------------------------------------------
