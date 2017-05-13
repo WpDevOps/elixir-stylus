@@ -38,5 +38,5 @@ Elixir.extend('stylus', function(src, output, options) {
 var getPaths = function(src, output) {
     return new Elixir.GulpPaths()
         .src(src, Elixir.config.get('assets.css.stylus.folder'))
-        .output(output || Elixir.config.get('public.css.outputFolder'), 'app.css');
+        .output(output || Elixir.config.get('dist.css.outputFolder'), 'app.css');
 };
